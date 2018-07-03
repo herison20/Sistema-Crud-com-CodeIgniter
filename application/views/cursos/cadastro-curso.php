@@ -17,7 +17,7 @@ $this->load->view('commons/header'); ?>
             <div class="form-group col-xs-6">
                 <label for="Nome">Nome do Curso:</label>
                 <input type="text" name="nome" maxlength="50" value=""  class="form-control" required/>
-                <?php echo form_error("nome","") ?>
+
             </div>
             <div class="form-group col-xs-6 ">
                 <label for="id_professor">Professor:</label>

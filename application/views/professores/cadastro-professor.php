@@ -15,7 +15,7 @@ $this->load->view('commons/header'); ?>
             <div class="form-group col-xs-9">
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" value=""  maxlength="50" class="form-control" required/>
-                <?php echo form_error("nome","") ?>
+
             </div>
             <div class="form-group col-xs-3">
                 <label for="data_nascimento">Data de Nascimento:</label>
