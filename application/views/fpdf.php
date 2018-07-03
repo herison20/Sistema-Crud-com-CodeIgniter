@@ -1,4 +1,11 @@
 <?php
+/**
+ *
+ * Created by PhpStorm.
+ * User: Hérison Assunção
+ * Email: herison.assuncao@outlook.com
+ *
+ */
 if(!defined('BASEPATH')) exit('No	direct	script	access	allowed');
 
 $pdf = new Myfpdf();

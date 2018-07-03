@@ -1,4 +1,11 @@
 <?php
+/**
+ *
+ * Created by PhpStorm.
+ * User: Hérison Assunção
+ * Email: herison.assuncao@outlook.com
+ *
+ */
 defined('BASEPATH')	OR exit('No	direct	script	access	allowed');
 class Fpdf_model extends CI_Model
 {

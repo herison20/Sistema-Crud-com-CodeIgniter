@@ -1,4 +1,11 @@
 <?php
+/**
+ *
+ * Created by PhpStorm.
+ * User: Hérison Assunção
+ * Email: herison.assuncao@outlook.com
+ *
+ */
 class alunos_model extends CI_Model{
     public function inserir($aluno){
         $this->db->insert("alunos", $aluno);
@@ -17,16 +24,13 @@ class alunos_model extends CI_Model{
     public function selecionarId($id = NULL)
     {
         if ($id != NULL):
-            //Verifica se a ID no banco de dados
             $this->db->select('id_aluno, a.nome nome_aluno, data_nascimento, logradouro, numero, bairro, cidade, estado, cep, c.id_curso, c.nome nome_curso, a.data_criacao');
             $this->db->from('alunos a');
             $this->db->join('cursos c', 'a.id_curso = c.id_curso');
             $this->db->where('id_aluno', $id);
-            //limita para apenas um regstro
 
-            //pega os produto
             $query = $this->db->get();
-            //retornamos o produto
+
             return $query->row();
         endif;
     }

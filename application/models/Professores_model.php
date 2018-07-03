@@ -1,4 +1,11 @@
 <?php
+/**
+ *
+ * Created by PhpStorm.
+ * User: Hérison Assunção
+ * Email: herison.assuncao@outlook.com
+ *
+ */
 class professores_model extends CI_Model{
 
     public function inserir($professor){
@@ -12,13 +19,8 @@ class professores_model extends CI_Model{
     public function selecionarId($id = NULL)
     {
         if ($id != NULL):
-            //Verifica se a ID no banco de dados
             $this->db->where('id_professor', $id);
-            //limita para apenas um regstro
-
-            //pega os produto
             $query = $this->db->get("professores");
-            //retornamos o produto
             return $query->row();
         endif;
     }

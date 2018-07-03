@@ -31,8 +31,6 @@ body {
 }
 
 
-
-
 html, * {
     /** Reseta os estilos **/
     margin: 0;
@@ -63,13 +61,6 @@ body > .container {
 .container .text-muted {
     margin: 15px 0;
 }
-
-
-
-
-/* Set the fixed height of the footer here */
-
-
 
 .bloco-home{
     margin-top: 150px;
