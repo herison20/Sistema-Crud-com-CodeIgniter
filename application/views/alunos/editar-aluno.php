@@ -7,7 +7,7 @@
 $this->load->view('commons/header'); ?>
 
 <div class="container bloco-form">
-    <h2 class="">Cadastrar Aluno</h2>
+    <h2 class="">Atualizar Aluno</h2>
     <hr>
     <form action="<?=base_url('alunos/salvar-aluno')?>" method="post" enctype="multipart/form-data">
 
