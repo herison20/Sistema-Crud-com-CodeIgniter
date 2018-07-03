@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH')	OR exit('No	direct	script	access	allowed');
 
-class Cursos_model extends CI_Model
+class cursos_model extends CI_Model
 {
     public function inserir($curso)
     {
