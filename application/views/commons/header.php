@@ -46,6 +46,8 @@ defined('BASEPATH')	OR exit('No	direct	script	access	allowed');?>
                 </li>
                 <li><a href="<?=base_url('flexpeak/fpdf')?>">Gerear Relatório</a></li>
             </ul>
+            <p class=" navbar-text navbar-right link"><a   href="<?=base_url('Login/logout')?>" style="color:#ffffff !important"> Sair</a></p>
+            <p class=" navbar-text navbar-right"><strong>Olá: </strong> <?php echo $this->session->userdata("logado");?></p>
         </div>
     </div>
 </nav>

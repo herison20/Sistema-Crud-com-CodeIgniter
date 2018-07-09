@@ -2,11 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$route['default_controller'] = 'Flexpeak';
+$route['default_controller'] = 'Login';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
+$route['login'] = "Login/index";
 $route['home'] = "Flexpeak/index";
 
 // Rotas alunos

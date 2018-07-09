@@ -8,12 +8,12 @@
  */
 defined('BASEPATH')	OR exit('No	direct	script	access	allowed');
 
-class Flexpeak extends CI_Controller{
+class Flexpeak extends MY_Controller{
 
     function index(){
         $this->load->view('home');
     }
-
+  
     // Método para chamar a view fpdf para gerar relatório PDF
     public function fpdf(){
         // Carregamos a library
